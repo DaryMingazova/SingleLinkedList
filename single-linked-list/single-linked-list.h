@@ -43,7 +43,7 @@ public:
         using pointer = ValueType*;
         using reference = ValueType&;
  
-		BasicIterator() = default;
+	BasicIterator() = default;
  
 		// Конвертирующий конструктор/конструктор копирования
         // При ValueType, совпадающем с Type, играет роль копирующего конструктора
